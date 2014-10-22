@@ -102,7 +102,7 @@ class TestClusters(unittest.TestCase):
 
        test_list = Closest_Pairs.copyToVertical([1, 2, 3], [1, 2, 3, 4, 5, 6, 7, 8])
        self.assertEqual([1, 2, 3], test_list)
-      
+
 
     def test_CreateMergeSet(self):
 

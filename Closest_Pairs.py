@@ -61,12 +61,7 @@ def fast_closest_pairs(cluster_list):
     horiz_order = getHorizIndices(cluster_list)
     vert_order = getVertIndices(cluster_list)
 
-
-
     def fast_helper( cluster_list, horiz_order, vert_order):
-
-
-
 
         if len(horiz_order) <= 3:
             return slow_cluster_pairs([cluster_list[x] for x in horiz_order])
@@ -102,9 +97,6 @@ def fast_closest_pairs(cluster_list):
 
     combinedmindata = fast_helper(cluster_list, horiz_order, vert_order)
     return combinedmindata
-
-
-
 
 
 def createMergeSet(smallestdist,midpoint,cluster_list, vert_order):   #below are helper methods
