@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="syntax">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://C:/Python27/Lib/site-packages/wx-2.8-msw-unicode/wx/tools/Editra/tests/syntax" />
+      <root url="file://C:/Python27/DLLs" />
+    </SOURCES>
+  </library>
+</component>
